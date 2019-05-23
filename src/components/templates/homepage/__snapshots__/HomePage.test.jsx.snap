@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> should render and match snapshot with basic config 1`] = `
+<div
+  className="t-homepage"
+>
+  <Header
+    className="t-homepage__header"
+  />
+  <div>
+    <Article
+      content="body1"
+      key="0"
+      title="title1"
+    />
+    <Article
+      content="body2"
+      key="1"
+      title="title2"
+    />
+  </div>
+</div>
+`;
